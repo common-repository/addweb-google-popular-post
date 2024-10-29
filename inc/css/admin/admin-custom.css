@@ -1,0 +1,81 @@
+#tp-about .advertise {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  #tp-about .advertise .ad-heading {
+    display: inline-block;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 20px;
+  }
+  
+  #tp-about .advertise .ad-content {
+    /* display: inline-block; */
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    align-items: stretch;
+  }
+  
+  #tp-about .advertise .ad-content .ad-detail {
+    /* display: inline-block;
+    width: 24.33%;    */
+    text-align: center;
+    background: #fff;
+    flex: 25% 0 0;
+    
+  }
+  
+  #tp-about .advertise .ad-content .ad-detail .ad-inner {
+    
+    padding: 25px 10px;
+    margin: 10px;
+    text-align: center;
+   
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    min-height: 213px;
+  }
+  
+  #tp-about .advertise .ad-content .ad-detail a {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #tp-about .advertise .ad-content .ad-detail .ad-link {
+    display: block;
+  }
+  
+  #tp-about .advertise .ad-content .ad-detail a:focus {
+    box-shadow: none;
+  }
+  
+  #tp-about .advertise .ad-content .ad-detail a:hover {
+    color: #00a0d2;
+  }
+  
+  #tp-about .advertise .ad-content .ad-detail:last-child {
+    margin-right: 0;
+  }
+  
+  #tp-about .advertise .ad-content .ad-detail img {
+    max-width: 160px;
+    width: 100%;
+  }
+  
+  .nav-menus-php #wpwrap .top-right, .nav-menus-php #wpwrap .top-left,
+  .user-new-php #wpwrap .top-right, .user-new-php #wpwrap .top-left {
+  position: absolute;
+  top: 0;
+  }
+  
+  
+  .tp-wrap
+  {
+  
+    width: calc(100% - 20px);
+    margin-top: 50px;
+  }

@@ -1,0 +1,80 @@
+.col-md-4.mb-10 {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.innergrid {
+    border: 1px solid #ccc;
+}
+.imggrid img {
+    height: 150px;
+    width: 100%;
+}
+.article-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.innergrid {
+	height: 100%;
+}
+.innergrid .titlegrid,.innergrid .contentgrid,.innergrid .btn-readmore {
+	padding: 0 10px;
+}
+.titlegrid{
+	font-size: 26px;
+}
+a.redmorbtn {
+    background: green;
+    color: #fff !important;
+    padding: 5px;
+    font-size: 16px;
+    text-decoration: none !important;
+    float: right;
+    position: relative;
+}
+.innergrid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.innergrid .infogrid-content {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    padding: 15px;
+}
+
+.innergrid .infogrid-content .titlegrid {
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+    display: flex;
+   
+    font-weight: 800;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.innergrid .infogrid-content .contentgrid {
+    padding: 0;
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.innergrid .infogrid-content .contentgrid p {
+    line-height: 1.2em;
+}
+
+.innergrid .infogrid-content .btn-readmore {
+    display: flex;
+    margin-top: auto;
+    padding: 0;
+}
+
+.innergrid .infogrid-content .btn-readmore a {
+    width: 100%;
+    text-align: center;
+}
